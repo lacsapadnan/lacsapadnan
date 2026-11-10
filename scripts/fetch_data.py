@@ -11,6 +11,7 @@ import datetime as dt
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.request
 from pathlib import Path
@@ -63,8 +64,13 @@ def dump(data: dict) -> str:
 
 def main() -> None:
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if not token:  # running on your own machine: reuse the `gh auth login` session
+        try:
+            token = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True, check=True).stdout.strip()
+        except (OSError, subprocess.CalledProcessError):
+            token = ""
     if not token:
-        sys.exit("Set GH_TOKEN (or GITHUB_TOKEN) first.")
+        sys.exit("No token: run `gh auth login`, or set GH_TOKEN to a personal access token with read:user.")
     user = gql(token)
 
     cal = user["contributionsCollection"]["contributionCalendar"]

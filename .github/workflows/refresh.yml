@@ -1,12 +1,10 @@
 name: Refresh profile cards
 
 on:
-  schedule:
-    - cron: "17 17 * * *"   # 00:17 in Jakarta, so the day that just ended is complete
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [scripts/**, fonts/**, assets/**, .github/workflows/refresh.yml]
+  # Re-enable the daily run once Actions billing works again:
+  # schedule:
+  #   - cron: "17 17 * * *"   # 00:17 in Jakarta
 
 permissions:
   contents: write
