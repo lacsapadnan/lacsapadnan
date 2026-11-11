@@ -1,7 +1,7 @@
 {
  "login": "lacsapadnan",
- "fetched_at": "2026-11-10T15:40:00Z",
- "total": 6719,
+ "fetched_at": "2026-11-11T05:17:35Z",
+ "total": 6729,
  "days": [
   {"date": "2025-11-09", "count": 11, "level": 1},
   {"date": "2025-11-10", "count": 3, "level": 1},
@@ -27,8 +27,8 @@
   {"date": "2025-11-30", "count": 4, "level": 1},
   {"date": "2025-12-01", "count": 9, "level": 1},
   {"date": "2025-12-02", "count": 8, "level": 1},
-  {"date": "2025-12-03", "count": 20, "level": 2},
-  {"date": "2025-12-04", "count": 30, "level": 2},
+  {"date": "2025-12-03", "count": 19, "level": 2},
+  {"date": "2025-12-04", "count": 31, "level": 2},
   {"date": "2025-12-05", "count": 12, "level": 1},
   {"date": "2025-12-06", "count": 13, "level": 1},
   {"date": "2025-12-07", "count": 1, "level": 1},
@@ -44,8 +44,8 @@
   {"date": "2025-12-17", "count": 15, "level": 1},
   {"date": "2025-12-18", "count": 25, "level": 2},
   {"date": "2025-12-19", "count": 27, "level": 2},
-  {"date": "2025-12-20", "count": 6, "level": 1},
-  {"date": "2025-12-21", "count": 7, "level": 1},
+  {"date": "2025-12-20", "count": 5, "level": 1},
+  {"date": "2025-12-21", "count": 8, "level": 1},
   {"date": "2025-12-22", "count": 28, "level": 2},
   {"date": "2025-12-23", "count": 18, "level": 2},
   {"date": "2025-12-24", "count": 13, "level": 1},
@@ -215,8 +215,8 @@
   {"date": "2026-06-06", "count": 9, "level": 1},
   {"date": "2026-06-07", "count": 0, "level": 0},
   {"date": "2026-06-08", "count": 11, "level": 1},
-  {"date": "2026-06-09", "count": 18, "level": 2},
-  {"date": "2026-06-10", "count": 18, "level": 2},
+  {"date": "2026-06-09", "count": 17, "level": 1},
+  {"date": "2026-06-10", "count": 19, "level": 2},
   {"date": "2026-06-11", "count": 8, "level": 1},
   {"date": "2026-06-12", "count": 3, "level": 1},
   {"date": "2026-06-13", "count": 0, "level": 0},
@@ -369,12 +369,13 @@
   {"date": "2026-11-07", "count": 4, "level": 1},
   {"date": "2026-11-08", "count": 0, "level": 0},
   {"date": "2026-11-09", "count": 22, "level": 2},
-  {"date": "2026-11-10", "count": 2, "level": 1}
+  {"date": "2026-11-10", "count": 10, "level": 1},
+  {"date": "2026-11-11", "count": 2, "level": 1}
  ],
  "repos": [
-  {"name": "Sistem-Informasi-Sekolah", "description": "Sistem informasi sekolah bebasis web menggunakan framework laravel 11, demo premium ⬇️", "language": "CSS", "stars": 60, "forks": 12, "url": "https://github.com/lacsapadnan/Sistem-Informasi-Sekolah", "color": "#563d7c", "pushed_at": "2025-08-20"},
-  {"name": "laravel-payment-gateway", "description": "Implementasi beberapa payment gateway indonesia untuk framework Laravel", "language": "PHP", "stars": 0, "forks": 1, "url": "https://github.com/lacsapadnan/laravel-payment-gateway", "color": "#4F5D95", "pushed_at": "2022-12-03"},
-  {"name": "api-cv-parser-flask", "description": "API CV Parser using Flask Python", "language": "Python", "stars": 0, "forks": 0, "url": "https://github.com/lacsapadnan/api-cv-parser-flask", "color": "#3572A5", "pushed_at": "2023-08-01"},
-  {"name": "pos-laravel", "description": "Aplikasi POS (Point of Sales) menggunakan framework Laravel versi 12, dibangun dengan menggunakan Service Repository Pattern", "language": "Blade", "stars": 2, "forks": 3, "url": "https://github.com/lacsapadnan/pos-laravel", "color": "#f7523f", "pushed_at": "2025-07-17"}
+  {"name": "Sistem-Informasi-Sekolah", "description": "Sistem informasi sekolah bebasis web menggunakan framework laravel 11, demo premium ⬇️", "language": "CSS", "color": "#663399", "stars": 60, "forks": 12, "url": "https://github.com/lacsapadnan/Sistem-Informasi-Sekolah", "pushed_at": "2025-08-20"},
+  {"name": "laravel-payment-gateway", "description": "Implementasi beberapa payment gateway indonesia untuk framework Laravel", "language": "PHP", "color": "#4F5D95", "stars": 0, "forks": 1, "url": "https://github.com/lacsapadnan/laravel-payment-gateway", "pushed_at": "2022-12-03"},
+  {"name": "api-cv-parser-flask", "description": "API CV Parser using Flask Python", "language": "Python", "color": "#3572A5", "stars": 0, "forks": 0, "url": "https://github.com/lacsapadnan/api-cv-parser-flask", "pushed_at": "2023-08-01"},
+  {"name": "pos-laravel", "description": "Aplikasi POS (Point of Sales) menggunakan framework Laravel versi 12, dibangun dengan menggunakan Service Repository Pattern", "language": "Blade", "color": "#f7523f", "stars": 2, "forks": 3, "url": "https://github.com/lacsapadnan/pos-laravel", "pushed_at": "2025-07-17"}
  ]
 }
